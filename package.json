@@ -1,0 +1,29 @@
+{
+  "name": "calm-vision-theme",
+  "displayName": "Calm Vision Theme",
+  "publisher": "huoshanxue",
+  "description": "A calming theme with a green color scheme",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huoshanxue/calm-vision-theme.git"
+  },
+  "galleryBanner": {
+    "theme": "light"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Calm Vision",
+        "uiTheme": "vs",
+        "path": "./themes/calm-vision-theme.json"
+      }
+    ]
+  }
+}
